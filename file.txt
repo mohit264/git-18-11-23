@@ -1,0 +1,67 @@
+  501  cls
+  502  clear
+  503  cd D:
+  504  cd /d/Git_18_11_23/
+  505  touch "file.txt"
+  506  ls
+  507  echo "Hello All" > file.txt 
+  508  cat file.txt 
+  509  clear
+  510  git init
+  511  echo "Hello World!" | git hash-object
+  512  echo "Hello World!" | git hash-object --stdin
+  513  echo "Hello World!" | git hash-object --stdin -w
+  514  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -t
+  515  git cat-file 980a0d5f19a64b4b30a87d4206aade58726b60e3 -p
+  516  git cat-file --help
+  517  clear
+  518  echo "Hello World!" > "Hello.txt"
+  519  ls
+  520  cat Hello.txt 
+  521  clear
+  522  git status
+  523  git add Hello.txt
+  524  git status
+  525  git commit -m "Added Hello File"
+  526  clear
+  527  git status
+  528  git log
+  529  git cat-file 327323f -t
+  530  git cat-file 327323f -p
+  531  git cat-file fec638dc267f605 -p
+  532  cat Hello.txt 
+  533  clear
+  534  vim Hello.txt 
+  535  cat Hello.txt 
+  536  git status
+  537  git add Hello.txt 
+  538  git status
+  539  echo "Hello World" | git hash-object --stdin
+  540  clear
+  541  git status
+  542  git restore Hello.txt
+  543  git status
+  544  git reset --hard
+  545  git status
+  546  clear
+  547  ls
+  548  cat Hello.txt 
+  549  git log
+  550  git status
+  551  git reset --hard
+  552  ls
+  553  clear
+  554  git log\
+  555  git cat-file 327323f314f87e6 -p
+  556  git cat-file fec638dc267f60
+  557  clear
+  558  git cat-file fec638dc267f60 -p
+  559  git log
+  560  git cat-file 327323f314f8 -p
+  561  git cat-file fec638dc267 -p
+  562  clear
+  563  git status
+  564  history
+  565  clear
+  566  ls
+  567  history > file.txt
